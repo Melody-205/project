@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+body header {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: #00D285;
+  align-items: center;
+  padding: 25px;
+}
+body header nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  padding-right: 30px;
+  max-width: 1200px;
+}
+body header .nav-link {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+}
+body header .nav-link .nav-link-iii {
+  margin-right: 50px;
+  color: #00D285;
+  text-decoration: none;
+}
+body header .nav-link .nav-link-i {
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+}
+body main .sec-one {
+  display: flex;
+  padding-top: 100px;
+  background-color: #EBFAF4;
+}
+body main .sec-one .left-section {
+  width: 50%;
+  background-image: url(./images/image_one.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 200px;
+}
+body main .sec-one .right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 200px;
+  width: 50%;
+}
+body main .sec-one .right-section .p-text-i {
+  position: relative;
+}
+body main .sec-one .right-section .p-text-i .p-text-i ::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: #00D285;
+}
+body main .sec-one .right-section .p-text-ii {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+body main .sec-one .right-section .p-text-iii {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+}
+body main .sec-one .right-section .process {
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+body main .sec-one .right-section .process .p-text-iv {
+  font-weight: 400;
+  font-size: 13px;
+}
+body main .sec-one .right-section .process .p-text-v {
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 10px;
+}
+body main .sec-one .right-section .process .p-text-vi {
+  font-weight: 550;
+  font-size: 13px;
+  padding-top: 10px;
+}
+body main .sec-two {
+  padding-left: 70px;
+}
+body main .sec-two .service {
+  border: 1px solid black;
+}
+body main .sec-two .service .p-text-vii {
+  font-size: 14px;
+  font-weight: 530;
+  padding-top: 40px;
+}
+body main .sec-two .service .h-text-i {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 5px;
+}
+body main .sec-two .service .p-text-viii {
+  padding-top: 7px;
+  font-size: 13px;
+  font-weight: 300;
+}/*# sourceMappingURL=about.css.map */

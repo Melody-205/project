@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    // padding: 0 1440px;
+    // margin: 0 auto;
+    max-width: 1440px;
+    header {
+        max-width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: #00D285;
+        align-items: center;
+        padding: 25px;
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            background-color: black;
+            padding-right: 30px;
+            // margin: 30px;
+            max-width: 1200px;
+            // padding-right: 20px;
+        }
+        .nav-link {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 22.5px;
+            // display: flex;
+            .nav-link-iii {
+                margin-right: 50px;
+                color: #00D285;
+                text-decoration: none;
+            }
+            .nav-link-i {
+                margin-right: 50px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    main {
+        .sec-one {
+            display: flex;
+            padding-top: 100px;
+            background-color: #EBFAF4;
+            // border: 1px solid black;
+            // padding-right: 20px
+            // justify-content: center;
+            // text-align: center;
+            // max-width: 1000px;
+            // padding-right: 50px;
+            .left-section {
+                width: 50%;
+                background-image: url(./images/image_one.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 200px;
+                // padding-right: 130px;
+            }
+            .right-section {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-right: 200px;
+                width: 50%;
+                .p-text-i {
+                    position: relative;
+                    // border-top: 1px solid black;
+                    .p-text-i ::before {
+                        content: "";
+                        display: block;
+                        height: 2px;
+                        width: 50px;
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        background-color: #00D285;
+                    }
+                    
+                }
+                .p-text-ii {
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding-top: 15px;
+                }
+                .p-text-iii {
+                    font-size: 15px;
+                    font-weight: 500;
+                    // padding-bottom: 80px;
+                    line-height: 30px;
+                    // padding: 80px;
+                }
+                
+                .process {
+                    border: 1px solid white;
+                    background-color: white;
+                    padding: 10px;
+                    border-radius: 10px;
+                    // margin: 10px;
+                    .p-text-iv {
+                        font-weight: 400;
+                        font-size: 13px;
+                    }
+                    .p-text-v {
+                        font-weight: 600;
+                        font-size: 14px;
+                        padding-top: 10px;
+                    }
+                    .p-text-vi {
+                        font-weight: 550;
+                        font-size: 13px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+        .sec-two {
+            padding-left: 70px;
+            .service {
+                border: 1px solid black;
+                .p-text-vii {
+                    font-size: 14px;
+                    font-weight: 530;
+                    padding-top: 40px;
+                    // text-size-adjust: 20px;
+                }
+                .h-text-i {
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding-top: 5px;
+                    // padding: 30px;
+                }
+                .p-text-viii {
+                    padding-top: 7px;
+                    font-size: 13px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
